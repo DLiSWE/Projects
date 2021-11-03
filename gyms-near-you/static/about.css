@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap");
+
+.maintext {
+  font-family: "Amatic SC", cursive;
+  font-size: 50px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  width: 100%;
+  height: 500px;
+  display: flex;
+}
+.container > .developer-card {
+  width: 30%;
+  height: 100%;
+  border: 2px solid pink;
+  margin: auto;
+  padding-left: 1%;
+}
+.container > .developer-card > .media-box {
+  width: 48%;
+  height: 6%;
+  margin: auto;
+  display: flex;
+}
+.container > .developer-card > .media-box > .img-box {
+  width: 20%;
+  height: 100%;
+  margin: auto;
+}
+
