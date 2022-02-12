@@ -1,0 +1,171 @@
+html {
+    font-size: 12px;
+}
+
+h1 {
+    text-align: center;
+}
+/* FirstPage */
+.top {
+    width:100%;
+    display:flex;
+    height: auto;
+    border-bottom:1px solid black;
+    justify-content: space-between;
+    padding-bottom:1%;
+}
+
+.content {
+    height:auto;
+    background-color: pink;
+    color: white;
+    border:2px solid black;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    min-width:500px;
+
+}
+
+.content .hed {
+    width:100%;
+}
+
+
+.content .paragraph {
+    font-size:1.3rem;
+    max-width:800px;
+    margin-top:5%;
+    margin-left:10%;
+}
+
+.content .images{
+    border:2px solid indigo;
+    display:flex;
+    margin-left:10%;
+    margin-top:3%;
+    max-height:200px;
+    flex-direction:column;
+}
+
+
+.firstrow {
+    font-size:1rem;
+    text-align: left;
+    display:flex;
+    margin-right:3%;
+}
+
+.secondrow{
+    display:flex;
+    text-align:left;
+    display:flex;
+    padding-bottom:3%;
+    margin-right:3%
+}
+
+table {
+    border:1px solid black;
+}
+
+.cont {
+    display:flex;
+    flex-direction: column;
+
+}
+
+.cont img {
+    margin-right:1%;
+}
+
+/* Hiking.html */
+
+.content1 {
+    width:100%;
+    display:flex;
+    justify-content:center;
+    margin-bottom:2%;
+    margin-top:2%;
+}
+
+.content1 .image1 {
+    border:1px solid black;
+    display:flex;
+    margin-left:1%;
+    max-width:500px;
+    height:auto;
+}
+
+.content1 .image1 .pdesign {
+    background-color:rgba(109, 5, 5, 0.678);
+    font-size:2rem;
+    text-align: center;
+    height:auto;
+    margin-top:0;
+    margin-bottom:0;
+    padding-left:5%;
+    padding-right:5%;
+    padding-top:5%;
+    border:2px solid rgb(90, 90, 177);
+
+}
+
+
+/* NavBar */
+.contact{
+    display:flex;
+}
+
+.botnav {
+    display:flex;
+    justify-content: center;
+}
+
+.botnav .nav {
+    list-style: none;
+    display:flex;
+    justify-content:center;
+}
+
+.botnav .nav .navitem {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/* form page */
+
+.head {
+display:flex;
+justify-content: center;
+}
+
+.form {
+    display:flex;
+    min-height:50%;
+    justify-content: center;
+    flex-wrap:wrap;
+    border:1px solid black;
+    padding-top:2%;
+    padding-bottom:2%;
+    padding-left:5%;
+}
+
+.form .sub{
+    background-color:rgb(0, 0, 0);
+    color:white;
+    margin-top:2%;
+    float:right;
+    border:none;
+    width:80px;
+    height:40px;
+}
+
+
+.myinfo {
+    display:flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-top:5%;
+    margin-right:20%;
+}
+
